@@ -157,6 +157,65 @@
     font-size: 0.95rem;
   }
 }
+/* ===============================
+   SMALL TABLET / 800px
+================================ */
+@media (max-width: 800px) {
+
+  /* Section spacing */
+  .skill-section {
+    padding: 1.75rem 1rem;
+  }
+
+  /* Header */
+  .skill-header {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  /* Skill container */
+  .skill-container {
+    flex-wrap: wrap;              /* allow wrapping */
+    justify-content: center;
+    gap: 1.25rem;
+    padding: 1.25rem;
+    border: none;
+  }
+
+  /* Cards */
+  .card {
+    width: clamp(220px, 45vw, 280px);
+  }
+
+  /* Icons */
+  .skill-icon img {
+    width: clamp(60px, 8vw, 80px);
+  }
+
+  /* Front text */
+  .skill-text {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  /* Back content */
+  .label {
+    font-size: 1.05rem;
+  }
+
+  .progress-circle {
+    width: 90px;
+    height: 90px;
+  }
+
+  .progress-value {
+    font-size: 0.95rem;
+  }
+
+  .experience {
+    font-size: 0.9rem;
+  }
+}
 @media (max-width: 600px) {
   /* Section */
   .skill-section {
