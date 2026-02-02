@@ -108,10 +108,7 @@
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  background: conic-gradient(
-    yellow 0deg,
-    #e0e0e0 0deg
-  );
+  background-color: lightseagreen;
   display: flex;
   align-items: center;
   justify-content: center;

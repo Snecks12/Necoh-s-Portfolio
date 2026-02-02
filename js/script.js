@@ -10,8 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
       let current = 0;
 
       // reset
-      circle.style.background =
-        "conic-gradient(yellow 0deg, #e0e0e0 0deg)";
+      circle.style.backgroundColor = "lightseagreen;";
       value.textContent = "0%";
 
       // force reflow (important)
@@ -23,11 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
         } else {
           current++;
           value.textContent = current + "%";
-          circle.style.background =
-            `conic-gradient(
-              yellow ${current * 3.6}deg,
-              #e0e0e0 0deg
-            )`;
+          circle.style.backgroundColor ="lightseagreen";
         }
       }, 15);
     });

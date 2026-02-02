@@ -63,14 +63,12 @@
 .h3About {
   font-size: 1rem;
   margin-top: 15px;
-  color: yellow;
 }
 
 .pAbout {
   color: black;
   line-height: 30px;
   font-size: 20px;
-  font-weight: 500;
   overflow-wrap: break-word;
   word-wrap: break-word;
   font-family: Arial, Helvetica, sans-serif;
