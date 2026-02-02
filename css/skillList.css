@@ -215,6 +215,9 @@
   .experience {
     font-size: 0.9rem;
   }
+  .index-container{
+    border:none;
+  }
 }
 @media (max-width: 600px) {
   /* Section */
@@ -266,6 +269,9 @@
 
   .experience {
     font-size: 0.9rem;
+  }
+  .index-container{
+    border:none;
   }
 }
 @media (max-width: 480px) {
