@@ -30,6 +30,8 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border: 2px solid black;
   background-color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-card:hover {
@@ -51,7 +53,8 @@
 /* Links */
 .project-links {
   display: flex;
-  gap: 15px;
+  gap: 1rem;
+  margin-top: auto;
 }
 
 .btn {
