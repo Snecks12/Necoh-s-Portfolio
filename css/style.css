@@ -149,6 +149,11 @@ body {
     font-size: 3rem;
   }
 }
+@media(max-width: 1000px) and (min-width: 900px){
+  .index-container{
+    border: none;
+  }
+}
 
 @media (max-width: 768px) {
   .index-container {
@@ -159,6 +164,7 @@ body {
     width: 100%;
     padding: 0;
     margin-top: -40px;
+    border: none;
   }
   .profile {
     width: 280px;
