@@ -157,48 +157,74 @@
     font-size: 0.95rem;
   }
 }
-/* ===============================
-   SMALL TABLET / 800px
-================================ */
-@media (max-width: 800px) {
 
-  /* Section spacing */
+@media (max-width: 900px) {
+
   .skill-section {
     padding: 1.75rem 1rem;
   }
 
-  /* Header */
+  .skill-header {
+    font-size: 2.2rem;
+  }
+
+  .skill-container {
+    gap: 1.25rem;
+    padding: 1.5rem;
+    border: none;
+  }
+
+  .card {
+    width: clamp(230px, 30vw, 300px);
+  }
+
+  .skill-text {
+    font-size: 0.95rem;
+  }
+
+  .progress-circle {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media (max-width: 800px) {
+
+
+  .skill-section {
+    padding: 1.75rem 1rem;
+  }
+
   .skill-header {
     font-size: 2rem;
     text-align: center;
   }
 
-  /* Skill container */
+
   .skill-container {
-    flex-wrap: wrap;              /* allow wrapping */
+    flex-wrap: wrap;             
     justify-content: center;
     gap: 1.25rem;
     padding: 1.25rem;
     border: none;
   }
 
-  /* Cards */
+
   .card {
     width: clamp(220px, 45vw, 280px);
   }
 
-  /* Icons */
+
   .skill-icon img {
     width: clamp(60px, 8vw, 80px);
   }
 
-  /* Front text */
+
   .skill-text {
     font-size: 0.9rem;
     line-height: 1.4;
   }
 
-  /* Back content */
+
   .label {
     font-size: 1.05rem;
   }
@@ -215,17 +241,14 @@
   .experience {
     font-size: 0.9rem;
   }
-  .index-container{
-    border:none;
-  }
 }
 @media (max-width: 600px) {
-  /* Section */
+
   .skill-section {
     padding: 1.5rem 0.5rem;
   }
 
-  /* Header */
+
   .mother-skill-header {
     margin-bottom: 1rem;
   }
@@ -236,7 +259,6 @@
     font-size: 1rem;
   }
 
-  /* Container */
   .skill-container {
     flex-direction: column;
     align-items: center;
@@ -245,19 +267,18 @@
     border: none;
   }
 
-  /* Cards */
   .card {
     width: 90%;
     max-width: 320px;
   }
 
-  /* Front text */
+
   .skill-text {
     font-size: 0.9rem;
     line-height: 1.4;
   }
 
-  /* Progress circle */
+
   .progress-circle {
     width: 70px;
     height: 70px;
@@ -269,9 +290,6 @@
 
   .experience {
     font-size: 0.9rem;
-  }
-  .index-container{
-    border:none;
   }
 }
 @media (max-width: 480px) {
