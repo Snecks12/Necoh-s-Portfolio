@@ -1,0 +1,93 @@
+/* ===== Projects Section ===== */
+.project-index {
+  padding: 80px 20px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  overflow: wrap;
+  margin-top: 30px;
+}
+
+.project-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+}
+
+/* Container */
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Card */
+.project-card {
+  border-radius: 16px;
+  padding: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 2px solid black;
+  background-color: white;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+/* Text */
+.project-name {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.project-desc {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+/* Links */
+.project-links {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+/* Buttons */
+.btn.live {
+    border: 2px solid black;
+}
+
+.btn.github {
+  border: 2px solid black;
+}
+
+.btn:hover {
+  opacity: 0.85;
+  transform: scale(1.05);
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 600px) {
+  .project-title {
+    font-size: 2rem;
+  }
+
+  .project-links {
+    flex-direction: column;
+  }
+
+  .btn {
+    text-align: center;
+  }
+}
