@@ -1,2 +1,1 @@
-# Necoh-s-Portfolio
-Necoh's Portfolio V2
+This is my first project to practice what I learned from HTML CSS and JS.
