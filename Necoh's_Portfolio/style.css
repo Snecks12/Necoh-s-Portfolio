@@ -1,0 +1,336 @@
+
+*{
+  padding: 5px;
+  margin: 5px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e7e7e7;
+}
+.page-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;          /* CENTER EVERYTHING */
+  padding: 0 1rem;
+}
+.hero-title{
+  font-size: 35px;
+  font-weight: 600px;
+}
+.typing {
+  display: inline-block;
+}
+.web-dev-title {
+  font-size: 50px;
+  color: black;
+  padding: 0;
+  margin: 0; 
+}
+/* Cursor as a vertical line */
+.cursor {
+  display: inline-block;
+  width: 2px;
+  height: 1em;
+  background: black;
+  margin-left: 3px;
+  animation: blink 1s step-start infinite;
+  vertical-align: bottom;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+.introText {
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 60vw;
+  min-width: 220px;
+  max-width: 700px;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  padding: 1vw 2vw;
+  color: black;
+  font-size: 20px;
+  line-height: 30px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  white-space: wrap;
+  background: white;
+}
+.indexStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;  /* DO NOT USE 110vh */
+  width: 100%;
+}
+.index-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  border: 2px dashed gray;
+  border-radius: 10px;
+  padding: 2rem;
+}
+.profile-text {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+  align-items: center;
+}
+.profile {
+  height: 30vw;
+  min-height: 180px;
+  max-height: 440px;
+  width: 27vw;
+  min-width: 120px;
+  max-width: 390px;
+  padding: 0px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.text-content {
+  min-height: 200px;
+  height: 30vw;
+  max-height: 430px;
+  width: 80%;
+}
+.downloadBtn {
+  position: relative;
+  top:10px;
+  border: 2px solid black;
+  transition: transform 0.3s ease;
+  border-radius: 8px;
+  background-color: white;
+  padding: 10px;
+}
+
+#download-Button:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+/* PAGES */
+#index {
+  width: 100%;
+  padding: 5vw;
+}
+#skills {
+  padding-top: 3rem;
+}
+
+
+@media (max-width: 1024px) {
+  .index-container {
+    flex-direction: column;
+    margin-left: 0;
+    gap: 2rem;
+    height: auto;
+    width: 100%;
+  }
+  .profile {
+    width: 380px;
+    height: 540px;
+  }
+  .introText {
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px;
+  }
+  .text-content {
+    height: auto;
+    width: 100%;
+  }
+  #index {
+    padding: 2rem 1rem;
+  }
+  .web-dev-title{
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .index-container {
+    flex-direction: column;
+    margin-left: 0;
+    gap: 1rem;
+    height: 160vh;
+    width: 100%;
+    padding: 0;
+    margin-top: -40px;
+  }
+  .profile {
+    width: 280px;
+    height: 300px;
+    margin: 0 auto;
+    display: block;
+  }
+  .introText {
+    max-width: 100%;
+    font-size: 0.95rem;
+    padding: 5px;
+    border-width: 1px;
+    padding: 10px;
+  }
+  .text-content {
+    height: auto;
+    width: 100%;
+    padding: 0;
+  }
+  .web-dev-title {
+    font-size: 3rem;
+  }
+  #index {
+    padding: 1rem 0.5rem;
+  }
+  .underlined {
+    width: 100%;
+    right: 0;
+    border-bottom-width: 4px;
+  }
+  #skills {
+    height: auto;
+    padding-top: 1rem;
+  }
+  #about {
+    height: auto;
+  }
+  #project{
+    height: auto;
+  }
+  #contact {
+    height: auto;
+  }
+}
+/* ===============================
+   PHONE RESPONSIVE (≤480px)
+================================ */
+@media (max-width: 480px) {
+
+  * {
+    padding: 3px;
+    margin: 3px;
+  }
+
+  .indexStyle {
+    height: auto;
+    padding: 1rem 0;
+  }
+  .introText{
+  height: auto;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  white-space: normal;
+  overflow-wrap: break-word;
+  font-size: 15px;
+  line-height: 23px;
+  }
+  .downloadBtn{
+    width: 100%;
+    max-width: 150px;
+    padding: 10px;
+    position: relative;
+    bottom: -50px;
+  }
+  .index-container {
+    flex-direction: column;
+    gap: 1rem;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    border: none;
+  }
+
+  .profile {
+    width: 220px;
+    height: 260px;
+    min-width: unset;
+    min-height: unset;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .profile-text {
+    top: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .introText {
+    width: 100%;
+    max-width: 100%;
+    font-size: 0.9rem;
+    padding: 10px;
+    border-width: 2px;
+  }
+
+  .text-content {
+    width: 100%;
+    height: auto;
+    min-height: unset;
+  }
+
+  .web-dev-title {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .underlined {
+    width: 100%;
+    right: 0;
+    border-bottom-width: 3px;
+  }
+
+  #skills,
+  #about,
+  #contact {
+    height: auto;
+  }
+}
+/* MOBILE */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav-container {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 60%;
+    display: none;
+  }
+
+  .nav-container.active {
+    display: block;
+    height: 270px;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+
+  .links {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* DESKTOP */
+@media (min-width: 769px) {
+  .menu-toggle {
+    display: none;
+  }
+
+  .nav-container {
+    display: block !important;
+    height: 100px;
+  }
+}
+
+

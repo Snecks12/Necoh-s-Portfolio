@@ -1,0 +1,425 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navigation.css" />
+    <link rel="stylesheet" href="toast.css"/>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="skillList.css" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="project.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://kit.fontawesome.com/7c1eaabb36.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Amethysta&family=Bebas+Neue&family=Bytesized&family=DM+Serif+Text:ital@0;1&family=Intel+One+Mono:wght@300..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend:wght@100..900&family=Noto+Sans:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&family=Oswald:wght@200..700&family=Protest+Strike&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+    <title>Document</title>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+        <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+            (function(){
+                emailjs.init({
+                  publicKey: "PvEXsCnZ8Z4PfKFwt",
+                });
+            })();
+        </script>
+  </head>
+  <body>
+    <div id="toast" class="toast"></div>
+    <div class = "page-wrapper">
+    <div class="menu-toggle" id="menuToggle">
+      <i class="fas fa-bars"></i>
+    </div>
+    <!-- toggle -->
+    <nav class="nav-container" id="nav">
+      <ul class="links">
+        <li><a href="#index">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Navigation☝ -->
+
+    <section id="index" class="indexStyle">
+      <div class="index-container">
+        <picture>
+          <img class="profile" src="Necoh.jpg" alt="Profile" />
+        </picture>
+
+        <div class="profile-text">
+          <div class="text-content">
+            <h2 class = "hero-title">
+              Hi I'm Necoh
+            </h2>
+            <div class="typing">
+              <h1 class="web-dev-title">
+                Web Developer<span class="cursor"></span>
+              </h1>
+            </div>
+            <span class="introText">
+              I'm passionate about learning and building things for the web.
+              Right now, I’m focused on HTML, CSS, and JavaScript, and I’m
+              excited to explore frameworks like NodeJS, ExpressJS and React soon. Every project I
+              work on helps me grow, and I'm all about clean code,
+              problem-solving, and making user-friendly websites. I’d love to
+              collaborate, learn from others, and take on new challenges!
+            </span>
+            <a href="public/Necoh-CV.pdf" download id="downloadButton">
+          <button id="download-Button" class="downloadBtn">Download CV</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--SKILL--><!--SKILL--><!--SKILL--><!--SKILL--><!--SKILL--><!--SKILL--><!--SKILL-->
+    <!--SKILL--><!--SKILL--><!--SKILL--><!--SKILL--><!--SKILL--><!--SKILL--><!--SKILL-->
+    <!--SKILL--><!--SKILL--><!--SKILL--><!--SKILL--><!--SKILL--><!--SKILL--><!--SKILL-->
+    <!--SKILL--><!--SKILL--><!--SKILL--><!--SKILL--><!--SKILL--><!--SKILL--><!--SKILL-->
+    <section id="skills" class = "skill-section">
+      <div class="mother-skill-header">
+        <div class="skill-container-header">
+          <h2 class = "skill-header">
+            Skill & Tools
+          </h2>
+        </div>
+      </div>
+
+      <div class="skill-container">
+        <div class="card" data-percent="90">
+          <div class="card-inner">
+            <div class="card-front">
+              <div class="skill-icon">
+                <img
+                  class="skill-image"
+                  src="html.jpg";
+                  alt="HTML Logo"
+                />
+              </div>
+              <p class = "skill-text">
+                Creating and structuring web pages including the use of tags,
+                elements.
+              </p>
+            </div>
+            <div class="card-back">
+              <div class="label">HTML</div>
+              <div class="progress-circle">
+                <div class="progress-value">0%</div>
+              </div>
+              <div class="experience">EXP: 3 Years</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-percent="70">
+          <div class="card-inner">
+            <div class="card-front">
+              <div class="skill-icon">
+                <img
+                  class="skill-image"
+                  src="css.jpg";
+                />
+              </div>
+              <p class = "skill-text">
+                Styling web pages including layout, responsiveness, and visual
+                enhancement.
+              </p>
+            </div>
+            <div class="card-back">
+              <div class="label">CSS</div>
+              <div class="progress-circle">
+                <div class="progress-value">0%</div>
+              </div>
+              <div class="experience">EXP: 2 Years</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-percent="55">
+          <div class="card-inner">
+            <div class="card-front">
+              <div class="skill-icon">
+                <img
+                  class="skill-image"
+                  src="js.jpg"
+                />
+              </div>
+              <p class = "skill-text">
+                Developing dynamic and interactive web applications to enhance
+                user experience.
+              </p>
+            </div>
+            <div class="card-back">
+              <div class="label">JAVASCRIPT</div>
+              <div class="progress-circle">
+                <div class="progress-value">0%</div>
+              </div>
+              <div class="experience">EXP: 2 Years</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-percent="10">
+          <div class="card-inner">
+            <div class="card-front">
+              <div class="skill-icon">
+                <img
+                  class="skill-image"
+                  src="react.jpg"
+                  alt="React Logo"
+                />
+              </div>
+              <p class = "skill-text">
+                Building scalable, maintainable, and performant single-page
+                applications.
+              </p>
+            </div>
+            <div class="card-back">
+              <div class="label">REACT</div>
+              <div class="progress-circle">
+                <div class="progress-value">0%</div>
+              </div>
+              <div class="experience">EXP: months 4(learning)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About -->
+    <section id="about" class = "section-about">
+      <div class="about-header-mother-container">
+        <div class="about-container">
+          <h1 class="about-header">About Me</h1>
+        </div>
+      </div>
+
+      <!--  -->
+      <div class="h1About"></div>
+      <div class="content">
+        <div class="who-i-am">
+          <h2 class="h2About">Who I am?</h2>
+          <p class="pAbout">
+            I'm a dedicated professional with a background in IT. My journey
+            began as a Cable Technician / IT, which led me to develop expertise
+            in troubleshooting internet & cable. I believe in continuous
+            learning and staying at the forefront of industry trends.
+      
+            When I'm not working, you can find me hiking, drawing, playing video
+            games and coding. I find that maintaining a balance between work and
+            personal life fuels my creativity and productivity.
+          </p>
+        </div>
+      </div>
+      <!-- slider -->
+    <div class="container">
+        <div class="header">
+            <h1>Work Experience</h1>
+            <p>My professional journey through the years</p>
+        </div>
+        
+        <div class="slider-container">
+            <div class="slider">
+                <!-- Slide 1 -->
+                   <div class="slide">
+                    <div class="slide-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <div class="slide-header">
+                        <div>
+                            <h2 class="job-title">Cable Technical / IT</h2>
+                            <p class="company">Kalibo Cable Television Inc.</p>
+                        </div>
+                        <span class="period">2020 - 2023</span>
+                    </div>
+                    <div class="responsibilities">
+                        <p>Installing, maintaining, and repairing network cables and infrastructure, set up internet, phone, and data connections in residential, commercial, or industrial environments, ensuring reliable connectivity running cables, configuring network equipment, troubleshooting connectivity issues, and ensuring compliance with safety standards.</p>
+                    </div>
+                 
+                </div>
+                
+                <!-- Slide 2 -->
+                <div class="slide">
+                    <div class="slide-icon">
+                        <i class="fas fa-money-bill-wave"></i>
+                    </div>
+                    <div class="slide-header">
+                        <div>
+                            <h2 class="job-title">Collection Specialist</h2>
+                            <p class="company">Mc Grath & Arthur Philippines</p>
+                        </div>
+                        <span class="period">2023 - 2024</span>
+                    </div>
+                    <div class="responsibilities">
+                        <p>Manages overdue accounts by contacting customers to recover unpaid debts, negotiate payment plans, and resolve billing issues while maintaining good customer relationships.</p>
+                    </div>
+                </div>
+                
+                <!-- Slide 3 -->
+                <div class="slide">
+                    <div class="slide-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="slide-header">
+                        <div>
+                            <h2 class="job-title">Corporate Sales Staff</h2>
+                            <p class="company">Rustan Commercial Corp.</p>
+                        </div>
+                        <span class="period">2024 - Present</span>
+                    </div>
+                    <div class="responsibilities">
+                        <p>Selling products or services to other businesses, identify potential clients, build relationships, present solutions, negotiate terms, and close deals to meet sales targets. Their role is essential in expanding a company's business-to-business (B2B) revenue.</p>
+                    </div>
+                </div>
+            </div>
+
+              <div class="slider-controls">
+            <button class="slider-btn prev-btn">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="slider-btn next-btn">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+              </div>
+        
+        <div class="slider-indicators">
+            <div class="indicator active"></div>
+            <div class="indicator"></div>
+            <div class="indicator"></div>
+        </div>
+        </div>
+        
+      
+    </div>
+    </section>
+    <!-- Project -->
+        <section id="project" class="project-index">
+  <h2 class="project-title">Projects</h2>
+
+  <div class="project-container">
+    <!-- Project 1 -->
+    <div class="project-card">
+      <h3 class="project-name">Personal Portfolio</h3>
+      <p class="project-desc">
+        A responsive personal portfolio built with HTML, CSS, and JavaScript to
+        showcase my skills and projects.
+      </p>
+      <div class="project-links">
+        <a href="#" target="_blank" class="btn live">Live Demo</a>
+        <a href="#" target="_blank" class="btn github">Source Code</a>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+      <h3 class="project-name">Task Manager</h3>
+      <p class="project-desc">
+        A task management app that allows users to add, delete, and complete
+        tasks using HTML, CSS, JavaScript and localStorage.
+      </p>
+      <div class="project-links">
+        <a href="#" target="_blank" class="btn live">Live Demo</a>
+        <a href="#" target="_blank" class="btn github">Source Code</a>
+      </div>
+    </div>
+  <!-- Project 3 -->
+   <div class="project-card">
+  <h3 class="project-name">To-do-list App</h3>
+  <p class="project-desc">
+    A simple to-do list application that allows users to add, remove,
+    and mark tasks as completed using JavaScript and localStorage.
+  </p>
+  <div class="project-links">
+    <a href="#" class="btn live">Live Demo</a>
+    <a href="#" class="btn github">Source Code</a>
+  </div>
+</div>
+</div>
+
+
+</section>
+
+    <!-- contact -->
+    <section id="contact" class="contact-index">
+      <div class="contact-info">
+        <h3>Contact Information</h3>
+        <div>📧<a href="https:/gmail.com">necohshem6@gmail.com</a></div>
+        <div>
+          📞
+          <p>
+            +63-9304-482-286 / <i class="fa-brands fa-viber"></i>
+          </p>
+        </div>
+        <div>
+          📍
+          <p>
+            A. Francisco Sta. Ana Manila
+          </p>
+        </div>
+        <h3>Connect With Me</h3>
+          <div class = "icon-container">
+              <div class="icon-background">
+                <a href="https://github.com/Snecks12" target="_blank"
+                  ><i style = "color: black;"class="fa-brands fa-square-github"></i></div></a>
+             
+              <div class="icon-background">
+                <a href="https://web.facebook.com/lordtouchme.666"
+                  target="_blank"><i style="color: #1877f2" class="fa-brands fa-square-facebook"></i></a>
+              </div>
+            </div>
+      </div>
+
+      <div class="contact-form">
+          <h3>Send Me a Message</h3>
+            <form>
+            <input id = "name"type="text" placeholder="Name" />
+            <input id = "email"type="email" placeholder="Email" />
+            <input id="subject" type="text" placeholder="Subject" />
+            <textarea id="message" placeholder="Message" rows="5"></textarea>
+            <button type="submit" onclick="sendEmail()" class = "sendEmail">Send Message</button>
+            </form>
+      </div>
+      </section>
+    <footer>
+      <div class="footer-content">
+        <div class="logo">
+          <div class = "initial">
+            N
+          </div>
+          <span class = "owners-name">Necoh's Portfolio</span>
+        </div>
+        <div class="nav-links">
+          <a href="#index">Home</a>
+          <a href="#about">About</a>
+          <a href="#project">Project</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p><span id="current-year"></span> Necoh. All rights reserved</p>
+        <script>
+          document.getElementById("current-year").textContent =
+            new Date().getFullYear();
+        </script>
+      </div>
+    </footer>
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="./js/mail.js"></script>
+    <script src="./js/toast.js"></script>
+  </body>
+</html>
